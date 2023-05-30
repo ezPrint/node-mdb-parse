@@ -1,15 +1,20 @@
 {
-  "name": "mdb-parse",
-  "version": "1.0.4",
+  "name": "mdb-parse-node",
+  "version": "1.0.5",
   "description": "A simple Node implementation of mdb-tools",
-  "keywords": ["mdb-tools", "mdb", "accdb", "msaccess"],
+  "keywords": [
+    "mdb-tools",
+    "mdb",
+    "accdb",
+    "msaccess"
+  ],
   "main": "index.js",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/1withforce/node_mdb_parse.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/1withforce/node_mdb_parse.git"
   },
-  "bugs":{
-    "url" : "https://github.com/1withforce/node_mdb_parse/issues"
+  "bugs": {
+    "url": "https://github.com/1withforce/node_mdb_parse/issues"
   },
   "scripts": {
     "test": "mocha",
@@ -20,6 +25,6 @@
   "dependencies": {
     "mocha": "^4.1.0",
     "papaparse": "^4.3.6",
-    "shelljs": "^0.7.8"
+    "shelljs": "^0.8.5"
   }
 }
